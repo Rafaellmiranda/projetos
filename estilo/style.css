@@ -6,7 +6,7 @@
 }
 
 html,body {
-    background-color: darkgray;
+    background-color: rgb(255, 255, 255);
     min-height: 100vh;
 }
 
@@ -26,8 +26,43 @@ header > p {
     padding-bottom: 50px;
 }
 
-a {
+header a,footer a {
     color:white;
     text-decoration: none;
-    
+    font-weight: bolder;
+}
+
+header a:hover ,footer a:hover { 
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+
+}
+
+section.imagem {
+    background-color: hsl(0, 0%, 6%);
+    color: white;
+
+}
+section.imagem > p {
+    width: 400px;
+    background-color: black;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
